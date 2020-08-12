@@ -16,7 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 
+# paths to find the various pages 
 urlpatterns = [
     path('', include('main.urls')), # main will be the name of your app
+    # default 
     path('admin/', admin.site.urls),
 ]
