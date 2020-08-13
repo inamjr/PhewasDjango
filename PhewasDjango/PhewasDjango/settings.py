@@ -80,6 +80,16 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'labwasWeb',
+#         'USER': 'anthony',
+#         'PASSWORD': 'password',
+#         'HOST': 'anthonydb.crwkqnreqbx2.us-east-2.rds.amazonaws.com',
+#         'PORT': '3306',
+#     }
+# }
 
 
 # Password validation
