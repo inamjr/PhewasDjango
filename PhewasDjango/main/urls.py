@@ -1,7 +1,6 @@
 from django.urls  import path
-from . import views
+from .views import PheWas_List
 
 urlpatterns = [
-    path("",views.index, name='index'),
-    path("v1/",views.view1, name='new page'),
+    path("phewas/", PheWas_List),
 ]
