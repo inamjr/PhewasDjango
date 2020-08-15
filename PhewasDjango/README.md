@@ -5,4 +5,4 @@
 
 This app is a simple rest api that provides information from the phewas database
 
-#Architecture
+# Architecture
