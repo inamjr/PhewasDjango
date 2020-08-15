@@ -26,14 +26,15 @@ Overview of steps:
 Hoorah!!!
 
 
-1) Install HomeBrew
+
+### 1) Install HomeBrew
 Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple’s macOS operating system.
 
 ```linux
  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-2) Install python3
+### 2) Install python3
 
 ```linux
 brew install python3
@@ -42,7 +43,7 @@ brew install python3
 python3 --version
 ```
 
-3) Install Virtual Environment:
+### 3) Install Virtual Environment:
 
 After installing the virtual environment, install all other packages including django in the virtualenv itself.
 
@@ -50,7 +51,7 @@ After installing the virtual environment, install all other packages including d
 sudo pip3 install virtualenv
 ```
 
-7) cd to project directory and create virtualenv
+### 7) cd to project directory and create virtualenv
 
 Go to your project directory and create virtualenv (if you call it "venv")
 ```linux
@@ -60,7 +61,7 @@ cd project1
 virtualenv venv -p python3
 ```
 
-9) activate virtualenv
+### 9) activate virtualenv
 
 ```python
 source venv/bin/activate
@@ -70,12 +71,12 @@ to exit the venv use
 deactivate
 ```
 
-11) Install django
+### 11) Install django
 ```python
 pip install Django
 ```
 
-13) Run your Project
+### Run your Project
 ```python
 python manage.py runserver 8080
 ```
