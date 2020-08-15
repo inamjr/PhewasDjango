@@ -2,7 +2,7 @@
 
 In ```settings.py``` modify 
 
-```javascript
+```linux
 # Application definition
 
 INSTALLED_APPS = [
