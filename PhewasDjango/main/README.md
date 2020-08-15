@@ -1,8 +1,11 @@
+## Admin
 
 To add an admin to the app ```admin.py``` .
 ```python
 python manage.py createsuperuser
 ```
+
+## Getting the model to a json
 
 Add ```serializers.py``` before sending data to the client we need to serialize the data to JSON.
 Documentation
