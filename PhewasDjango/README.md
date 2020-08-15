@@ -82,3 +82,30 @@ pip install Django
 python manage.py runserver 8080
 ```
 Quit the server with CONTROL-C.
+
+
+### On Windows OS
+
+
+1) Install the Django in the Project folder ```cmd```
+```java
+pip install django
+```
+```java
+python -m django --version
+```
+
+2) Run the server
+```
+python manage.py runserver  5050
+```
+To stop the server in the console ```CTRL + C```
+
+3) To run a python Shell
+```
+python manage.py shell
+```
+Exit the shell
+```java
+quit()
+```
