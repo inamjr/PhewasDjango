@@ -7,7 +7,8 @@ This app is a simple rest api that provides information from the phewas database
 
 ## Architecture
 
-This is a Monolithic project Using the Django Framework to handel the full Application from the persistence layer to the http request and response 
+This is a Monolithic project Using the Django Framework to handel the full Application from the persistence layer to the http request and response.
+
 ![](Architecture.PNG)
 
 ## Installation/SetUp
@@ -22,11 +23,10 @@ Overview of steps:
 5) activate virtualenv
 6) Install django
    RunServeer and open the Browser
-Hoorah!!! Just start it now
+Hoorah!!!
 
 
 1) Install HomeBrew
-
 Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple’s macOS operating system.
 
 ```linux
@@ -34,6 +34,7 @@ Homebrew is a free and open-source software package management system that simpl
 ```
 
 2) Install python3
+
 ```linux
 brew install python3
 ```
