@@ -25,6 +25,8 @@ class PhewasSerializer(serializers.ModelSerializer):
 
 ## Connecting the the urls between apps  
 
+In the ```urls.py``` add the following 
+
 ```python
 from .views import PheWas_List # <- import the models
 
