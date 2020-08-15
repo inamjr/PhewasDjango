@@ -28,7 +28,7 @@ Hoorah!!!
 
 
 ### 1) Install HomeBrew
-Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple’s macOS operating system.
+Homebrew is a software package management system that simplifies the installation of software on Apple’s macOS operating system.
 
 ```linux
  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -51,12 +51,13 @@ After installing the virtual environment, install all other packages including d
 sudo pip3 install virtualenv
 ```
 
-### 7) cd to project directory and create virtualenv
+### 7) Change directory project directory and create virtualenv
 
-Go to your project directory and create virtualenv (if you call it "venv")
+Go to your project directory 
 ```linux
 cd project1
 ```
+Create virtual environment "venv"
 ```python
 virtualenv venv -p python3
 ```
