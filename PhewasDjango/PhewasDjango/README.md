@@ -2,7 +2,7 @@
 
 In ```settings.py``` modify 
 
-```java
+```python
 # Application definition
 
 INSTALLED_APPS = [
