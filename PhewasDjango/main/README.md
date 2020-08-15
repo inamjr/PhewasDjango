@@ -5,13 +5,15 @@ python manage.py createsuperuser
 ```
 
 Add ```serializers.py``` before sending data to the client we need to serialize the data to JSON.
-[Rest_Framework_documentation](https://www.django-rest-framework.org/)
+Documentation
+[Rest_Framework](https://www.django-rest-framework.org/)
 
+Code Snipit
 ```python
 
 from .models import PheWasModel # <- add the models
 
-# create 
+# create a class of the model
 class PhewasSerializer(serializers.ModelSerializer):
     class Meta:
         model = PheWasModel
