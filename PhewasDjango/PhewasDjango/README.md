@@ -30,12 +30,12 @@ In ```urls.py``` Add
 
 ```python
 from django.contrib import admin
-from django.urls import path,include  <-- # add include
+from django.urls import path,include  # <- add include
 
 # paths to find the various pages 
 urlpatterns = [
-# default 
-    path('admin/', admin.site.urls),
-    path('', include('main.urls')), # main is the name of your app 
+
+    path('admin/', admin.site.urls), # <- default 
+    path('', include('main.urls')), # <- main is the name of your app 
 ]
 ```
