@@ -16,3 +16,13 @@ INSTALLED_APPS = [
     'main.apps.MainConfig', # <- add this
 ]
 ```
+Local Data Base
+
+```java
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+```
