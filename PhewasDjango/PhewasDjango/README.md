@@ -2,7 +2,7 @@
 
 In ```settings.py``` modify 
 
-```linux
+```java
 # Application definition
 
 INSTALLED_APPS = [
@@ -12,7 +12,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',   # <- add_this
-    'main.apps.MainConfig', # <- add_this
+    'rest_framework',   # <- add this
+    'main.apps.MainConfig', # <- add this
 ]
 ```
