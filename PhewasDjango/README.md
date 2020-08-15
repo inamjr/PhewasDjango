@@ -30,16 +30,16 @@ Hoorah!!!
 ### 1) Install HomeBrew
 Homebrew is a software package management system that simplifies the installation of software on Apple’s macOS operating system.
 
-```linux
+```java
  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ### 2) Install python3
 
-```linux
+```java
 brew install python3
 ```
-```linux
+```java
 python3 --version
 ```
 
@@ -64,7 +64,7 @@ virtualenv venv -p python3
 
 ### 9) activate virtualenv
 
-```python
+```java
 source venv/bin/activate
 ```
 to exit the venv use
