@@ -109,3 +109,14 @@ Exit the shell
 ```java
 quit()
 ```
+
+
+## Contributor
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+
+## Contact
+If you want to contact me you can reach me at <anthony.ikeogu@vumc.org>.
