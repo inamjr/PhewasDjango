@@ -11,7 +11,9 @@ Add ```serializers.py``` before sending data to the client we need to serialize 
 Documentation
 [Rest_Framework](https://www.django-rest-framework.org/)
 
-Code Snipit
+There are different types of serializers implementation
+here we use a model serializer.
+
 ```python
 
 from .models import PheWasModel # <- add the models
@@ -36,3 +38,24 @@ urlpatterns = [
     path("phewas/", PheWas_List), 
 ]
 ```
+
+## Display 
+In the  ```views.py```  file you get the link to what gets shown by the url
+
+In this app we only display information so we only need a GET 
+
+```python
+from django.http import HttpResponse , JsonResponse   # <- added
+from rest_framework.parsers import JSONParser  # <- added
+from .models import PheWasModel    # <- added
+from .serializers import PhewasSerializer # <- added
+
+# Create your views here.
+
+def PheWas_List(request):
+    if request.method =='GET':
+        phewas = PheWasModel.objects.all()
+        serializer = PhewasSerializer(phewas,many=True)
+        return JsonResponse(serializer.data, safe=False)
+```
+
