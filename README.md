@@ -27,14 +27,14 @@ Hoorah!!!
 
 
 
-### 1) Install HomeBrew
+#### 1) Install HomeBrew
 Homebrew is a software package management system that simplifies the installation of software on Apple’s macOS operating system.
 
 ```java
  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-### 2) Install python3
+#### 2) Install python3
 
 ```java
 brew install python3
@@ -43,7 +43,7 @@ brew install python3
 python3 --version
 ```
 
-### 3) Install Virtual Environment:
+#### 3) Install Virtual Environment:
 
 After installing the virtual environment, install all other packages including django in the virtualenv itself.
 
@@ -51,7 +51,7 @@ After installing the virtual environment, install all other packages including d
 sudo pip3 install virtualenv
 ```
 
-### 7) Change directory project directory and create virtualenv
+#### 7) Change directory project directory and create virtualenv
 
 Go to your project directory 
 ```linux
@@ -62,7 +62,7 @@ Create virtual environment "venv"
 virtualenv venv -p python3
 ```
 
-### 9) activate virtualenv
+#### 9) activate virtualenv
 
 ```java
 source venv/bin/activate
@@ -72,12 +72,12 @@ to exit the venv use
 deactivate
 ```
 
-### 11) Install django
+#### 11) Install django
 ```python
 pip install Django
 ```
 
-### Run your Project
+#### Run your Project
 ```python
 python manage.py runserver 8080
 ```
@@ -87,7 +87,7 @@ Quit the server with CONTROL-C.
 ### On Windows OS
 
 
-1) Install the Django in the Project folder ```cmd```
+#### 1) Install the Django in the Project folder ```cmd```
 ```java
 pip install django
 ```
@@ -95,17 +95,17 @@ pip install django
 python -m django --version
 ```
 
-2) Run the server
+#### 2) Run the server
 ```
 python manage.py runserver  5050
 ```
 To stop the server in the console ```CTRL + C```
 
-3) To run a python Shell
+#### 3) To run a python Shell
 ```
 python manage.py shell
 ```
-Exit the shell
+#### Exit the shell
 ```java
 quit()
 ```
