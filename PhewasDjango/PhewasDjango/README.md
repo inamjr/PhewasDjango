@@ -15,7 +15,9 @@ INSTALLED_APPS = [
     'rest_framework',   # <- add this
     'main.apps.MainConfig', # <- add this
 ]
-
+...
+...
+...
 
 DATABASES = {
     'default': {
