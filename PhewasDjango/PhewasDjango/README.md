@@ -15,10 +15,8 @@ INSTALLED_APPS = [
     'rest_framework',   # <- add this
     'main.apps.MainConfig', # <- add this
 ]
-```
-Local Data Base
 
-```java
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -26,6 +24,7 @@ DATABASES = {
     }
 }
 ```
+
 In ```urls.py``` Add
 
 ```python
