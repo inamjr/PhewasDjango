@@ -22,3 +22,24 @@ class PheWasModel(models.Model):
 
     def __str__(self):
 	    return self.lab_name
+
+class PheWasModel_2(models.Model):
+    lab_name = models.CharField(max_length=200)
+    analysis_type = models.CharField(max_length=200)
+    charr = models.CharField(max_length=20)
+    pos = models.CharField(max_length=200)
+    marker_name = models.CharField(max_length=200)
+    rsid = models.CharField(max_length=200)
+    reff = models.CharField(max_length=200)
+    altt = models.CharField(max_length=200)
+    effect = models.CharField(max_length=200)
+    analysis_efect = models.CharField(max_length=200)
+    varr = models.CharField(max_length=200)
+    direction = models.CharField(max_length=200)
+    std_err = models.CharField(max_length=200)
+    gene = models.CharField(max_length=200)
+    log_p = models.CharField(max_length=200)
+    p = models.CharField(max_length=200)
+
+    def __str__(self):
+	    return self.lab_name

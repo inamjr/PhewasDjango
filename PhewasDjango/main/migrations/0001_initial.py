@@ -33,4 +33,27 @@ class Migration(migrations.Migration):
                 ('p', models.CharField(max_length=200)),
             ],
         ),
+         migrations.CreateModel(
+            name='PheWasModel_2',
+            fields=[
+                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('lab_name', models.CharField(max_length=200)),
+                ('analysis_type', models.CharField(max_length=200)),
+                ('charr', models.CharField(max_length=20)),
+                ('pos', models.CharField(max_length=200)),
+                ('marker_name', models.CharField(max_length=200)),
+                ('rsid', models.CharField(max_length=200)),
+                ('reff', models.CharField(max_length=200)),
+                ('altt', models.CharField(max_length=200)),
+                ('effect', models.CharField(max_length=200)),
+                ('analysis_efect', models.CharField(max_length=200)),
+                ('varr', models.CharField(max_length=200)),
+                ('direction', models.CharField(max_length=200)),
+                ('std_err', models.CharField(max_length=200)),
+                ('gene', models.CharField(max_length=200)),
+                ('log_p', models.CharField(max_length=200)),
+                ('p', models.CharField(max_length=200)),
+            ],
+        ),
+
     ]
