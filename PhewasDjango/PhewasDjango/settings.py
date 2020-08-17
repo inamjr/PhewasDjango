@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
@@ -75,22 +76,24 @@ WSGI_APPLICATION = 'PhewasDjango.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'labwasWeb',
-#         'USER': 'anthony',
-#         'PASSWORD': 'password',
-#         'HOST': 'anthonydb.crwkqnreqbx2.us-east-2.rds.amazonaws.com',
-#         'PORT': '3306',
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
-# }
+#}
+#DATABASES = dj_database_url.config()
+#DATABASES['default'] = dj_database_url.config(mysql://anthonydb.crwkqnreqbx2.us-east-2.rds.amazonaws.com:3306/labwasWeb2?user=anthony&password=password)
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'labwasWeb2',
+        'USER': 'anthony',
+        'PASSWORD': 'password',
+        'HOST': 'anthonydb.crwkqnreqbx2.us-east-2.rds.amazonaws.com',
+        'PORT': '3306',
+    }
+}
 
 
 # Password validation
